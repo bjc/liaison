@@ -1,0 +1,38 @@
+{
+    IBClasses = (
+        {
+            CLASS = CopyController; 
+            LANGUAGE = ObjC; 
+            OUTLETS = {
+                theContentBox = NSBox; 
+                theScrollView = NSScrollView; 
+                theTemplate = DownloadStatusView; 
+                theWindow = NSWindow; 
+            }; 
+            SUPERCLASS = NSObject; 
+        }, 
+        {
+            CLASS = DownloadStatusView; 
+            LANGUAGE = ObjC; 
+            OUTLETS = {
+                theButton = NSButton; 
+                theFilename = NSTextField; 
+                theIcon = NSImageView; 
+                theProgressBar = NSProgressIndicator; 
+            }; 
+            SUPERCLASS = NSView; 
+        }, 
+        {CLASS = FirstResponder; LANGUAGE = ObjC; SUPERCLASS = NSObject; }, 
+        {CLASS = FlippedBox; LANGUAGE = ObjC; SUPERCLASS = NSBox; }, 
+        {
+            CLASS = NIBConnector; 
+            LANGUAGE = ObjC; 
+            OUTLETS = {
+                theCopyController = CopyController; 
+                thePreferencesController = PreferencesController; 
+            }; 
+            SUPERCLASS = NSObject; 
+        }
+    ); 
+    IBVersion = 1; 
+}

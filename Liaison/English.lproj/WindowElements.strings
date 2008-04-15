@@ -1,0 +1,37 @@
+/* Common strings. */
+LiFileSingular = "file";
+LiFilePlural = "files";
+
+/* Default group names. */
+LiRendezvousGroupName = "Rendezvous";
+LiUntitledGroupName = "untitled";
+
+/* Toolbar strings. */
+LiToolbarAddFileLabel = "Add Files";
+LiToolbarAddFilePaletteLabel = "Add Files to Library";
+LiToolbarAddFileToolTip = "Add files to your library.";
+LiToolbarRemoveFileLabel = "Remove File";
+LiToolbarRemoveFilesLabel = "Remove Files";
+LiToolbarRemoveFilePaletteLabel = "Remove from Group";
+LiToolbarRemoveFileToolTip = "Remove the currently selected files.";
+LiToolbarRemoveFilesFromLibraryToolTip = "Remove the currently selected %@ from your library.";
+LiToolbarRemoveFilesFromGroupToolTip = "Remove the currently selected %@ from the group.";
+LiToolbarSearchLabel = "Search";
+LiToolbarSearchPaletteLabel = "Search in Group";
+LiToolbarSearchToolTip = "Search in selected group.";
+LiToolbarGetInfoLabel = "Get Info";
+LiToolbarGetInfoPaletteLabel = "Get Info";
+LiToolbarGetInfoToolTip = "Open the inspector window.";
+LiToolbarAddGroupLabel = "Add Group";
+LiToolbarAddGroupPaletteLabel = "Add Group";
+LiToolbarAddGroupToolTip = "Create a new group.";
+LiToolbarRemoveGroupLabel = "Delete Group";
+LiToolbarRemoveGroupPaletteLabel = "Delete Group";
+LiToolbarRemoveGroupToolTip = "Deletes the currently selected group.";
+LiToolbarRevealLabel = "Show in Finder";
+LiToolbarRevealPaletteLabel = "Show in Finder";
+LiToolbarRevealToolTip = "Show the selected item in the Finder.";
+
+/* File load panel. */
+LiLoadPanelTitle = "Add to Library";
+LiLoadingDirectory = "Scanning: ";

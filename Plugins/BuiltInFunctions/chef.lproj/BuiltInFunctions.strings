@@ -1,0 +1,26 @@
+/* Headers for columns. */
+IconHeader = "Icun";
+FilenameHeader = "Feeleneme-a";
+TypeHeader = "Type-a";
+LastModifiedTimeHeader = "Lest Mudeeffied";
+CreatedTimeHeader = "Creeted";
+FileSizeHeader = "Seeze-a";
+
+/* Error messages. */
+UnableToResolveAlias = "uneble-a tu resulfe-a eleees";
+
+/* Default library name. */
+LiLibraryName = "My Leebrery";
+
+/* Names for filters. */
+LiFilenameAttribute = "feeleneme-a";
+LiTypeAttribute = "type-a";
+
+/* Names for operators. */
+LiEqualsOperator = "is";
+LiContainsOperator = "cunteeens";
+
+/* For the natural language formatter. */
+Today = "Tudey";
+Yesterday = "Yesterdey";
+Tomorrow = "Tumurroo";

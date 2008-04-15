@@ -1,0 +1,167 @@
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN"
+        "http://www.w3.org/TR/1999/REC-html401-19991224/loose.dtd">
+<html lang="en">
+<head>
+	<title>What's New</title>
+	<meta name="generator" content="BBEdit 6.5">
+</head>
+
+<body>
+<h1>What's new</h1>
+<h3>Since 0.4.2:</h3>
+<ul>
+	<li>Fixed a bug with the load sheet not closing properly.</li>
+	<li>You can now drag whole directories onto the group list or file list to add the files
+	in them to Liaison.</li>
+	<li>Drag-and-Drop of promised files works.</li>
+	<li>The table view no longer scrolls to the top of the list after you remove files.</li>
+	<li>You can drag files from Liaison to the finder now.</li>
+	<li>The shared inspector now updates when you make other windows key.</li>
+	<li>No longer cache icon information. This slows everything down a tiny bit, but saves
+	a huge amount of memory.</li>
+	<li>The icon that signifies an unlocatable file now updates automatically.</li>
+</ul>
+
+<h3>Since 0.4.1:</h3>
+<ul>
+	<li>Added help.</li>
+	<li>Project split up for future open source plans.</li>
+	<li>A lot of old code culled.</li>
+	<li>You can unsort your file list by clicking on the header.</li>
+	<li>Editing files now works consistently with the sort and search.</li>
+	<li>Fixed many bugs where the file selection would change unexpectedly.</li>
+	<li>Fixed bugs with groups being assigned incorrectly.</li>
+	<li>Added contextual menus to the file and group panels.</li>
+	<li>Fixed dimming of menus and toolbars with two exceptions: the "Open" and
+	"Show in Finder" menu items don't work properly when the group list is the
+	first responder.</li>
+</ul>
+
+<h3>Since 0.4:</h3>
+<ul>
+	<li>Many GUI fixes and enhancements.</li>
+	<li>Major speed improvements for loading large amounts of files at a time.</li>
+</ul>
+
+<h3>Since 0.3.3a:</h3>
+<ul>
+	<li>The file database has been ripped to shreds and rewritten from scratch. The new one
+	is much more extensible and faster overall.</li>
+	<li>Application is now prebound for faster launch times.</li>
+	<li>Network code has been rewritten to take advantage of the new file database, and is
+	much more connection friendly now for persistant connections.</li>
+	<li>Loading files into your library should be substantially faster. However, you cannot
+	load more than about one thousand at a time.</li>
+	<li>File selection is saved as you navigate through groups, if possible.</li>
+	<li>The zoom box works properly (or mostly properly) everywhere.</li>
+	<li>Preliminary AppleScript support has been added. It's not very useful, but it's there.</li>
+	<li>You are no longer able to group remote file stores within an over-all "Rendezvous"
+	group.</li>
+	<li>Some minor fixes for Panther.</li>
+	<li>BUG: The "Add Files to Library" menu item doesn't get properly dimmed.</li>
+</ul>
+
+<h3>What's new since 0.3.2a:</h3>
+<ul>
+	<li>Application starts again.</li>
+</ul>
+
+<h3>Since 0.3.1a:</h3>
+<ul>
+	<li>Fix date sorts.</li>
+	<li>Make string searches case insensitive.</li>
+	<li>Add a plugin architecture for the file browser and inspector.</li>
+	<li>Add a Find panel stub so I can work out the interface.</li>
+	<li>You can set the file's icon in the inspector now - simply drag an image
+	file (not a .icns file!) onto the file's icon in the file inspector.</li>
+	<li>You can copy a file's icon by dragging it from the icon in the file
+	inspector to a folder. Note: files are saved as TIFF documents, with one
+	layer per icon size (so layer 1 is 128x128, layer 2 is 32x32, layer 3 is
+	16,16) -- Thanx Cocoa!</li>
+	<li>If a file change can't happen, a sheet is displayed.</li>
+</ul>
+
+<h3>Since 0.3a:</h3>
+<ul>
+	<li>You can set or delete HFS file creator codes via the inspector.</li>
+	<li>Add columns for last modified time, creation time, and file size.</li>
+	<li>Column sizes and order in the file list are remembered now.</li>
+	<li>Added a "view options" dialog box, under the view menu. You can use
+	this to set which columns are displayed.</li>
+	<li>The delete key and the "Delete" item under the "Edit" menu work now.</li>
+	<li>If you have an editable group selected, adding files will also add them
+	to the current group. Otherwise the files are just dumped in the library.</li>
+	<li>Fix network code. I don't know how long it's been broken, but it works
+	again as well as it did the last time I checked, perhaps better.</li>
+	<li>Display scroll bars when the group list is longer than the view.</li>
+	<li>When reloading a file in the download panel, don't create a new status
+	view, just re-use the old one.</li>
+	<li>If the hostname changes you can still download files properly.</li>
+</ul>
+
+<h3>Since 0.2.1a:</h3>
+<ul>
+	<li>Use aliases instead of paths as the database key. Files can now be
+	renamed without being lost to Liaison.
+	<div class="warning">
+		<strong>WARNING:</strong> This means
+		you have to delete your old library. You can accomplish this by deleting the
+		files in ~/Library/Liaison/. You must do this for Liaison to function
+		properly. Hopefully this shouldn't happen again.</li>
+	</div>
+	<li>Initialize the local group name if there's no existing library.</li>
+	<li>Add a little "!" icon for files that can't be located.</li>
+	<li>Edits in the file table and the inspector are now written to disk.</li>
+</ul>
+
+<h3>Since 0.2a:</h3>
+<ul>
+	<li>Editing a group doesn't clear the icon anymore.</li>
+	<li>Only draw the vertical grid; since we have alterntating row colors, we
+	don't need the horizontal grid.</li>
+	<li>File selection is saved between searches in the toolbar and sorts (from
+	clicking on the table header).</li>
+	<li>Empty groups are removed from the remote group list.</li>
+	<li>Add a menu item under the help menu to go to Liaison's web site.</li>
+	<li>Clear selection when group is changed.</li>
+</ul>
+
+<h3>Since 0.1.3a:</h3>
+<ul>
+	<li>File list is editable now. Changes still aren't written to disk.</li>
+	<li>Added a preference to put remote hosts under a rendezvous group,
+	or as a top-level group. By default, remote stores aren't displayed
+	under a rendezvous group.</li>
+	<li>File list has striped rows.</li>
+	<li>File extension is now relegated soley to the "type" column. The other
+	way just doesn't make sense.</li>
+	<li>"Reveal in Finder" tool bar icon.</li>
+	<li>Added "Get Info" under the file menu. This duplicates the "Inspector" menu
+	under the window menu.</li>
+</ul>
+
+<h3>Since 0.1.2a:</h3>
+<ul>
+	<li>A few new toolbar icons.</li>
+	<li>HFS type/creator codes are visible on remote hosts.</li>
+	<li>Writer threads are cleaned up properly.</li>
+	<li>The hooks for the Edit menu actions are in.</li>
+	<li>Remote group browsing works again.</li>
+</ul>
+
+<h3>Since 0.1.1a:</h3>
+<ul>
+	<li>File copying works again.</li>
+</ul>
+
+<h3>Since 0.1a:</h3>
+<ul>
+	<li>I have an icon! (However, I do not have Photoshop skillz).</li>
+	<li>Host name changes now update across the network.
+	(Actually, this needs work. I doubt a file copy will work without
+	restarting.)</li>
+	<li>Fixed a bug with the preferences always thinking the hostname had
+	changed.</li>
+</ul>
+</body>
+</html>

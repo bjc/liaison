@@ -1,0 +1,79 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple Computer//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>Classes</key>
+	<dict>
+		<key>LiFileHandle</key>
+		<dict>
+			<key>Attributes</key>
+			<dict>
+				<key>dictionary</key>
+				<dict>
+					<key>Description</key>
+					<string>The complete attribute dictionary.</string>
+					<key>Name</key>
+					<string>dictionary</string>
+				</dict>
+				<key>fileHandle</key>
+				<dict>
+					<key>Description</key>
+					<string>The unique file identifier which locates a file in a library.</string>
+					<key>Name</key>
+					<string>id</string>
+				</dict>
+				<key>filename</key>
+				<dict>
+					<key>Description</key>
+					<string>The filename of the file, without type extension.</string>
+					<key>Name</key>
+					<string>name</string>
+				</dict>
+				<key>urlString</key>
+				<dict>
+					<key>Description</key>
+					<string>A URL which locates this file.</string>
+					<key>Name</key>
+					<string>address</string>
+				</dict>
+			</dict>
+			<key>Description</key>
+			<string>A file.</string>
+			<key>Name</key>
+			<string>file</string>
+			<key>PluralName</key>
+			<string>files</string>
+		</dict>
+		<key>LiFileStore</key>
+		<dict>
+			<key>Attributes</key>
+			<dict>
+				<key>name</key>
+				<dict>
+					<key>Description</key>
+					<string>The name of the library.</string>
+					<key>Name</key>
+					<string>name</string>
+				</dict>
+				<key>storeID</key>
+				<dict>
+					<key>Description</key>
+					<string>The unique store identifier.</string>
+					<key>Name</key>
+					<string>id</string>
+				</dict>
+			</dict>
+			<key>Description</key>
+			<string>A file library.</string>
+			<key>Name</key>
+			<string>library</string>
+			<key>PluralName</key>
+			<string>libraries</string>
+		</dict>
+	</dict>
+	<key>Description</key>
+	<string>Liaison's low-level scripting interface.</string>
+	<key>Name</key>
+	<string>LiBackend suite</string>
+</dict>
+</plist>

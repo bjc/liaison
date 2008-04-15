@@ -1,0 +1,514 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 42;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		F7D397E40546864600BD181E /* BDAlias.h in Headers */ = {isa = PBXBuildFile; fileRef = F790687704EF3DE200000104 /* BDAlias.h */; };
+		F7D397E50546864600BD181E /* IconFamily.h in Headers */ = {isa = PBXBuildFile; fileRef = F790688104EF3DEB00000104 /* IconFamily.h */; };
+		F7D397E60546864600BD181E /* NSString+CarbonFSSpecCreation.h in Headers */ = {isa = PBXBuildFile; fileRef = F790688304EF3DEB00000104 /* NSString+CarbonFSSpecCreation.h */; };
+		F7D397E70546864600BD181E /* LiImageView.h in Headers */ = {isa = PBXBuildFile; fileRef = F790689404EF3E3900000104 /* LiImageView.h */; };
+		F7D397E80546864600BD181E /* FileSizeFormatter.h in Headers */ = {isa = PBXBuildFile; fileRef = F790689804EF3E3900000104 /* FileSizeFormatter.h */; };
+		F7D397E90546864600BD181E /* HFSCodeFormatter.h in Headers */ = {isa = PBXBuildFile; fileRef = F790689904EF3E3900000104 /* HFSCodeFormatter.h */; };
+		F7D397EA0546864600BD181E /* InspectorViewController.h in Headers */ = {isa = PBXBuildFile; fileRef = F790689B04EF3E3900000104 /* InspectorViewController.h */; };
+		F7D397EB0546864600BD181E /* LiBuiltInFunctions.h in Headers */ = {isa = PBXBuildFile; fileRef = F790689C04EF3E3900000104 /* LiBuiltInFunctions.h */; };
+		F7D397EC0546864600BD181E /* BuiltInFunctions.h in Headers */ = {isa = PBXBuildFile; fileRef = F75ACF1C04EF584E00000104 /* BuiltInFunctions.h */; };
+		F7D397ED0546864600BD181E /* NaturalDateFormatter.h in Headers */ = {isa = PBXBuildFile; fileRef = F71CA8EF0502854900000104 /* NaturalDateFormatter.h */; };
+		F7D397EF0546864600BD181E /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 089C167DFE841241C02AAC07 /* InfoPlist.strings */; };
+		F7D397F00546864600BD181E /* BDAlias.rtf in Resources */ = {isa = PBXBuildFile; fileRef = F790687904EF3DE200000104 /* BDAlias.rtf */; };
+		F7D397F10546864600BD181E /* License.rtf in Resources */ = {isa = PBXBuildFile; fileRef = F790687A04EF3DE200000104 /* License.rtf */; };
+		F7D397F20546864600BD181E /* local.tiff in Resources */ = {isa = PBXBuildFile; fileRef = F790688A04EF3E0D00000104 /* local.tiff */; };
+		F7D397F30546864600BD181E /* LocalAccountLarge.tiff in Resources */ = {isa = PBXBuildFile; fileRef = F790688B04EF3E0D00000104 /* LocalAccountLarge.tiff */; };
+		F7D397F40546864600BD181E /* Network (Large).tiff in Resources */ = {isa = PBXBuildFile; fileRef = F790688C04EF3E0D00000104 /* Network (Large).tiff */; };
+		F7D397F50546864600BD181E /* Network (Small).tiff in Resources */ = {isa = PBXBuildFile; fileRef = F790688D04EF3E0D00000104 /* Network (Small).tiff */; };
+		F7D397F60546864600BD181E /* NotThere.icns in Resources */ = {isa = PBXBuildFile; fileRef = F790688E04EF3E0D00000104 /* NotThere.icns */; };
+		F7D397F70546864600BD181E /* InspectorViews.nib in Resources */ = {isa = PBXBuildFile; fileRef = F79068AC04EF3EED00000104 /* InspectorViews.nib */; };
+		F7D397F80546864600BD181E /* BuiltInFunctions.strings in Resources */ = {isa = PBXBuildFile; fileRef = F79068AE04EF3EED00000104 /* BuiltInFunctions.strings */; };
+		F7D397F90546864600BD181E /* ErrorMessages.strings in Resources */ = {isa = PBXBuildFile; fileRef = F79068B004EF3EED00000104 /* ErrorMessages.strings */; };
+		F7D397FB0546864600BD181E /* BDAlias.m in Sources */ = {isa = PBXBuildFile; fileRef = F790687804EF3DE200000104 /* BDAlias.m */; };
+		F7D397FC0546864600BD181E /* IconFamily.m in Sources */ = {isa = PBXBuildFile; fileRef = F790688204EF3DEB00000104 /* IconFamily.m */; };
+		F7D397FD0546864600BD181E /* NSString+CarbonFSSpecCreation.m in Sources */ = {isa = PBXBuildFile; fileRef = F790688404EF3DEC00000104 /* NSString+CarbonFSSpecCreation.m */; };
+		F7D397FE0546864600BD181E /* FileSizeFormatter.m in Sources */ = {isa = PBXBuildFile; fileRef = F790689504EF3E3900000104 /* FileSizeFormatter.m */; };
+		F7D397FF0546864600BD181E /* InspectorViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = F790689604EF3E3900000104 /* InspectorViewController.m */; };
+		F7D398000546864600BD181E /* LiBuiltInFunctions.m in Sources */ = {isa = PBXBuildFile; fileRef = F790689704EF3E3900000104 /* LiBuiltInFunctions.m */; };
+		F7D398010546864600BD181E /* HFSCodeFormatter.m in Sources */ = {isa = PBXBuildFile; fileRef = F790689A04EF3E3900000104 /* HFSCodeFormatter.m */; };
+		F7D398020546864600BD181E /* LiImageView.m in Sources */ = {isa = PBXBuildFile; fileRef = F790689D04EF3E3900000104 /* LiImageView.m */; };
+		F7D398030546864600BD181E /* NaturalDateFormatter.m in Sources */ = {isa = PBXBuildFile; fileRef = F71CA8F00502854900000104 /* NaturalDateFormatter.m */; };
+		F7D398050546864600BD181E /* Cocoa.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1058C7ADFEA557BF11CA2CBB /* Cocoa.framework */; };
+		F7D398060546864600BD181E /* Carbon.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F79068CA04EF42F700000104 /* Carbon.framework */; };
+		F7D398070546864600BD181E /* LiBackend.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F7D6587904F356ED00000104 /* LiBackend.framework */; };
+		F7D398080546864600BD181E /* LiPlugin.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F7D6587A04F356ED00000104 /* LiPlugin.framework */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		089C1672FE841209C02AAC07 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = /System/Library/Frameworks/Foundation.framework; sourceTree = "<absolute>"; };
+		089C167EFE841241C02AAC07 /* English */ = {isa = PBXFileReference; fileEncoding = 10; lastKnownFileType = text.plist.strings; name = English; path = English.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		089C167FFE841241C02AAC07 /* AppKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AppKit.framework; path = /System/Library/Frameworks/AppKit.framework; sourceTree = "<absolute>"; };
+		1058C7ADFEA557BF11CA2CBB /* Cocoa.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Cocoa.framework; path = /System/Library/Frameworks/Cocoa.framework; sourceTree = "<absolute>"; };
+		F71CA8EF0502854900000104 /* NaturalDateFormatter.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = NaturalDateFormatter.h; sourceTree = "<group>"; };
+		F71CA8F00502854900000104 /* NaturalDateFormatter.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = NaturalDateFormatter.m; sourceTree = "<group>"; };
+		F75ACF1C04EF584E00000104 /* BuiltInFunctions.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BuiltInFunctions.h; sourceTree = "<group>"; };
+		F790687704EF3DE200000104 /* BDAlias.h */ = {isa = PBXFileReference; fileEncoding = 30; lastKnownFileType = sourcecode.c.h; path = BDAlias.h; sourceTree = "<group>"; };
+		F790687804EF3DE200000104 /* BDAlias.m */ = {isa = PBXFileReference; fileEncoding = 30; lastKnownFileType = sourcecode.c.objc; path = BDAlias.m; sourceTree = "<group>"; };
+		F790687904EF3DE200000104 /* BDAlias.rtf */ = {isa = PBXFileReference; lastKnownFileType = text.rtf; path = BDAlias.rtf; sourceTree = "<group>"; };
+		F790687A04EF3DE200000104 /* License.rtf */ = {isa = PBXFileReference; lastKnownFileType = text.rtf; path = License.rtf; sourceTree = "<group>"; };
+		F790688104EF3DEB00000104 /* IconFamily.h */ = {isa = PBXFileReference; fileEncoding = 30; lastKnownFileType = sourcecode.c.h; path = IconFamily.h; sourceTree = "<group>"; };
+		F790688204EF3DEB00000104 /* IconFamily.m */ = {isa = PBXFileReference; fileEncoding = 30; lastKnownFileType = sourcecode.c.objc; path = IconFamily.m; sourceTree = "<group>"; };
+		F790688304EF3DEB00000104 /* NSString+CarbonFSSpecCreation.h */ = {isa = PBXFileReference; fileEncoding = 30; lastKnownFileType = sourcecode.c.h; path = "NSString+CarbonFSSpecCreation.h"; sourceTree = "<group>"; };
+		F790688404EF3DEC00000104 /* NSString+CarbonFSSpecCreation.m */ = {isa = PBXFileReference; fileEncoding = 30; lastKnownFileType = sourcecode.c.objc; path = "NSString+CarbonFSSpecCreation.m"; sourceTree = "<group>"; };
+		F790688A04EF3E0D00000104 /* local.tiff */ = {isa = PBXFileReference; lastKnownFileType = image.tiff; path = local.tiff; sourceTree = "<group>"; };
+		F790688B04EF3E0D00000104 /* LocalAccountLarge.tiff */ = {isa = PBXFileReference; lastKnownFileType = image.tiff; path = LocalAccountLarge.tiff; sourceTree = "<group>"; };
+		F790688C04EF3E0D00000104 /* Network (Large).tiff */ = {isa = PBXFileReference; lastKnownFileType = image.tiff; path = "Network (Large).tiff"; sourceTree = "<group>"; };
+		F790688D04EF3E0D00000104 /* Network (Small).tiff */ = {isa = PBXFileReference; lastKnownFileType = image.tiff; path = "Network (Small).tiff"; sourceTree = "<group>"; };
+		F790688E04EF3E0D00000104 /* NotThere.icns */ = {isa = PBXFileReference; lastKnownFileType = image.icns; path = NotThere.icns; sourceTree = "<group>"; };
+		F790689404EF3E3900000104 /* LiImageView.h */ = {isa = PBXFileReference; fileEncoding = 30; lastKnownFileType = sourcecode.c.h; path = LiImageView.h; sourceTree = "<group>"; };
+		F790689504EF3E3900000104 /* FileSizeFormatter.m */ = {isa = PBXFileReference; fileEncoding = 30; lastKnownFileType = sourcecode.c.objc; path = FileSizeFormatter.m; sourceTree = "<group>"; };
+		F790689604EF3E3900000104 /* InspectorViewController.m */ = {isa = PBXFileReference; fileEncoding = 30; lastKnownFileType = sourcecode.c.objc; path = InspectorViewController.m; sourceTree = "<group>"; };
+		F790689704EF3E3900000104 /* LiBuiltInFunctions.m */ = {isa = PBXFileReference; fileEncoding = 30; lastKnownFileType = sourcecode.c.objc; path = LiBuiltInFunctions.m; sourceTree = "<group>"; };
+		F790689804EF3E3900000104 /* FileSizeFormatter.h */ = {isa = PBXFileReference; fileEncoding = 30; lastKnownFileType = sourcecode.c.h; path = FileSizeFormatter.h; sourceTree = "<group>"; };
+		F790689904EF3E3900000104 /* HFSCodeFormatter.h */ = {isa = PBXFileReference; fileEncoding = 30; lastKnownFileType = sourcecode.c.h; path = HFSCodeFormatter.h; sourceTree = "<group>"; };
+		F790689A04EF3E3900000104 /* HFSCodeFormatter.m */ = {isa = PBXFileReference; fileEncoding = 30; lastKnownFileType = sourcecode.c.objc; path = HFSCodeFormatter.m; sourceTree = "<group>"; };
+		F790689B04EF3E3900000104 /* InspectorViewController.h */ = {isa = PBXFileReference; fileEncoding = 30; lastKnownFileType = sourcecode.c.h; path = InspectorViewController.h; sourceTree = "<group>"; };
+		F790689C04EF3E3900000104 /* LiBuiltInFunctions.h */ = {isa = PBXFileReference; fileEncoding = 30; lastKnownFileType = sourcecode.c.h; path = LiBuiltInFunctions.h; sourceTree = "<group>"; };
+		F790689D04EF3E3900000104 /* LiImageView.m */ = {isa = PBXFileReference; fileEncoding = 30; lastKnownFileType = sourcecode.c.objc; path = LiImageView.m; sourceTree = "<group>"; };
+		F79068AD04EF3EED00000104 /* English */ = {isa = PBXFileReference; lastKnownFileType = wrapper.nib; name = English; path = English.lproj/InspectorViews.nib; sourceTree = "<group>"; };
+		F79068AF04EF3EED00000104 /* English */ = {isa = PBXFileReference; fileEncoding = 30; lastKnownFileType = text.plist.strings; name = English; path = English.lproj/BuiltInFunctions.strings; sourceTree = "<group>"; };
+		F79068B104EF3EED00000104 /* English */ = {isa = PBXFileReference; fileEncoding = 30; lastKnownFileType = text.plist.strings; name = English; path = English.lproj/ErrorMessages.strings; sourceTree = "<group>"; };
+		F79068B504EF3F0D00000104 /* chef */ = {isa = PBXFileReference; lastKnownFileType = wrapper.nib; name = chef; path = chef.lproj/InspectorViews.nib; sourceTree = "<group>"; };
+		F79068B604EF3F1700000104 /* chef */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = chef; path = chef.lproj/BuiltInFunctions.strings; sourceTree = "<group>"; };
+		F79068B704EF3F2600000104 /* chef */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = chef; path = chef.lproj/ErrorMessages.strings; sourceTree = "<group>"; };
+		F79068B804EF3F5800000104 /* chef */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = chef; path = chef.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		F79068CA04EF42F700000104 /* Carbon.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Carbon.framework; path = /System/Library/Frameworks/Carbon.framework; sourceTree = "<absolute>"; };
+		F7D3980B0546864600BD181E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		F7D3980C0546864600BD181E /* Built In Functions.liaisonplugin */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Built In Functions.liaisonplugin"; sourceTree = BUILT_PRODUCTS_DIR; };
+		F7D6587904F356ED00000104 /* LiBackend.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = LiBackend.framework; path = ../../Frameworks/build/Development/LiBackend.framework; sourceTree = "<group>"; };
+		F7D6587A04F356ED00000104 /* LiPlugin.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = LiPlugin.framework; path = ../../Frameworks/build/Development/LiPlugin.framework; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		F7D398040546864600BD181E /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F7D398050546864600BD181E /* Cocoa.framework in Frameworks */,
+				F7D398060546864600BD181E /* Carbon.framework in Frameworks */,
+				F7D398070546864600BD181E /* LiBackend.framework in Frameworks */,
+				F7D398080546864600BD181E /* LiPlugin.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		089C166AFE841209C02AAC07 /* Built In Functions */ = {
+			isa = PBXGroup;
+			children = (
+				08FB77AFFE84173DC02AAC07 /* Classes */,
+				089C167CFE841241C02AAC07 /* Resources */,
+				089C1671FE841209C02AAC07 /* Frameworks and Libraries */,
+				19C28FB8FE9D52D311CA2CBB /* Products */,
+			);
+			name = "Built In Functions";
+			sourceTree = "<group>";
+		};
+		089C1671FE841209C02AAC07 /* Frameworks and Libraries */ = {
+			isa = PBXGroup;
+			children = (
+				F7D6587904F356ED00000104 /* LiBackend.framework */,
+				F7D6587A04F356ED00000104 /* LiPlugin.framework */,
+				F79068CA04EF42F700000104 /* Carbon.framework */,
+				1058C7ACFEA557BF11CA2CBB /* Linked Frameworks */,
+				1058C7AEFEA557BF11CA2CBB /* Other Frameworks */,
+			);
+			name = "Frameworks and Libraries";
+			sourceTree = "<group>";
+		};
+		089C167CFE841241C02AAC07 /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				F7D3980B0546864600BD181E /* Info.plist */,
+				F79068AC04EF3EED00000104 /* InspectorViews.nib */,
+				F79068AE04EF3EED00000104 /* BuiltInFunctions.strings */,
+				F79068B004EF3EED00000104 /* ErrorMessages.strings */,
+				089C167DFE841241C02AAC07 /* InfoPlist.strings */,
+				F790688904EF3E0D00000104 /* Images */,
+			);
+			name = Resources;
+			sourceTree = "<group>";
+		};
+		08FB77AFFE84173DC02AAC07 /* Classes */ = {
+			isa = PBXGroup;
+			children = (
+				F75ACF1C04EF584E00000104 /* BuiltInFunctions.h */,
+				F790689C04EF3E3900000104 /* LiBuiltInFunctions.h */,
+				F790689704EF3E3900000104 /* LiBuiltInFunctions.m */,
+				F790689B04EF3E3900000104 /* InspectorViewController.h */,
+				F790689604EF3E3900000104 /* InspectorViewController.m */,
+				F790689404EF3E3900000104 /* LiImageView.h */,
+				F790689D04EF3E3900000104 /* LiImageView.m */,
+				F790689904EF3E3900000104 /* HFSCodeFormatter.h */,
+				F790689A04EF3E3900000104 /* HFSCodeFormatter.m */,
+				F790689804EF3E3900000104 /* FileSizeFormatter.h */,
+				F790689504EF3E3900000104 /* FileSizeFormatter.m */,
+				F71CA8EF0502854900000104 /* NaturalDateFormatter.h */,
+				F71CA8F00502854900000104 /* NaturalDateFormatter.m */,
+				F790688004EF3DEB00000104 /* IconFamily */,
+				F790687604EF3DE200000104 /* BDAlias */,
+			);
+			name = Classes;
+			sourceTree = "<group>";
+		};
+		1058C7ACFEA557BF11CA2CBB /* Linked Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				1058C7ADFEA557BF11CA2CBB /* Cocoa.framework */,
+			);
+			name = "Linked Frameworks";
+			sourceTree = "<group>";
+		};
+		1058C7AEFEA557BF11CA2CBB /* Other Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				089C1672FE841209C02AAC07 /* Foundation.framework */,
+				089C167FFE841241C02AAC07 /* AppKit.framework */,
+			);
+			name = "Other Frameworks";
+			sourceTree = "<group>";
+		};
+		19C28FB8FE9D52D311CA2CBB /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				F7D3980C0546864600BD181E /* Built In Functions.liaisonplugin */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		F790687604EF3DE200000104 /* BDAlias */ = {
+			isa = PBXGroup;
+			children = (
+				F790687704EF3DE200000104 /* BDAlias.h */,
+				F790687804EF3DE200000104 /* BDAlias.m */,
+				F790687904EF3DE200000104 /* BDAlias.rtf */,
+				F790687A04EF3DE200000104 /* License.rtf */,
+			);
+			name = BDAlias;
+			path = BDAlias/BDAlias;
+			sourceTree = "<group>";
+		};
+		F790688004EF3DEB00000104 /* IconFamily */ = {
+			isa = PBXGroup;
+			children = (
+				F790688104EF3DEB00000104 /* IconFamily.h */,
+				F790688204EF3DEB00000104 /* IconFamily.m */,
+				F790688304EF3DEB00000104 /* NSString+CarbonFSSpecCreation.h */,
+				F790688404EF3DEC00000104 /* NSString+CarbonFSSpecCreation.m */,
+			);
+			name = IconFamily;
+			path = IconFamily/IconFamily;
+			sourceTree = "<group>";
+		};
+		F790688904EF3E0D00000104 /* Images */ = {
+			isa = PBXGroup;
+			children = (
+				F790688A04EF3E0D00000104 /* local.tiff */,
+				F790688B04EF3E0D00000104 /* LocalAccountLarge.tiff */,
+				F790688C04EF3E0D00000104 /* Network (Large).tiff */,
+				F790688D04EF3E0D00000104 /* Network (Small).tiff */,
+				F790688E04EF3E0D00000104 /* NotThere.icns */,
+			);
+			path = Images;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXHeadersBuildPhase section */
+		F7D397E30546864600BD181E /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F7D397E40546864600BD181E /* BDAlias.h in Headers */,
+				F7D397E50546864600BD181E /* IconFamily.h in Headers */,
+				F7D397E60546864600BD181E /* NSString+CarbonFSSpecCreation.h in Headers */,
+				F7D397E70546864600BD181E /* LiImageView.h in Headers */,
+				F7D397E80546864600BD181E /* FileSizeFormatter.h in Headers */,
+				F7D397E90546864600BD181E /* HFSCodeFormatter.h in Headers */,
+				F7D397EA0546864600BD181E /* InspectorViewController.h in Headers */,
+				F7D397EB0546864600BD181E /* LiBuiltInFunctions.h in Headers */,
+				F7D397EC0546864600BD181E /* BuiltInFunctions.h in Headers */,
+				F7D397ED0546864600BD181E /* NaturalDateFormatter.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXHeadersBuildPhase section */
+
+/* Begin PBXNativeTarget section */
+		F7D397E20546864600BD181E /* Built In Functions */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 28986764095DAB7900B5DC99 /* Build configuration list for PBXNativeTarget "Built In Functions" */;
+			buildPhases = (
+				F7D397E30546864600BD181E /* Headers */,
+				F7D397EE0546864600BD181E /* Resources */,
+				F7D397FA0546864600BD181E /* Sources */,
+				F7D398040546864600BD181E /* Frameworks */,
+				F7D398090546864600BD181E /* Rez */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Built In Functions";
+			productInstallPath = "@executable_path/../Plugins";
+			productName = "Built In Functions";
+			productReference = F7D3980C0546864600BD181E /* Built In Functions.liaisonplugin */;
+			productType = "com.apple.product-type.bundle";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		089C1669FE841209C02AAC07 /* Project object */ = {
+			isa = PBXProject;
+			buildConfigurationList = 28986768095DAB7900B5DC99 /* Build configuration list for PBXProject "BuiltInFunctions" */;
+			compatibilityVersion = "Xcode 2.4";
+			hasScannedForEncodings = 1;
+			knownRegions = (
+				English,
+				Japanese,
+				French,
+				German,
+				chef,
+			);
+			mainGroup = 089C166AFE841209C02AAC07 /* Built In Functions */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				F7D397E20546864600BD181E /* Built In Functions */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		F7D397EE0546864600BD181E /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F7D397EF0546864600BD181E /* InfoPlist.strings in Resources */,
+				F7D397F00546864600BD181E /* BDAlias.rtf in Resources */,
+				F7D397F10546864600BD181E /* License.rtf in Resources */,
+				F7D397F20546864600BD181E /* local.tiff in Resources */,
+				F7D397F30546864600BD181E /* LocalAccountLarge.tiff in Resources */,
+				F7D397F40546864600BD181E /* Network (Large).tiff in Resources */,
+				F7D397F50546864600BD181E /* Network (Small).tiff in Resources */,
+				F7D397F60546864600BD181E /* NotThere.icns in Resources */,
+				F7D397F70546864600BD181E /* InspectorViews.nib in Resources */,
+				F7D397F80546864600BD181E /* BuiltInFunctions.strings in Resources */,
+				F7D397F90546864600BD181E /* ErrorMessages.strings in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXRezBuildPhase section */
+		F7D398090546864600BD181E /* Rez */ = {
+			isa = PBXRezBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXRezBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		F7D397FA0546864600BD181E /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F7D397FB0546864600BD181E /* BDAlias.m in Sources */,
+				F7D397FC0546864600BD181E /* IconFamily.m in Sources */,
+				F7D397FD0546864600BD181E /* NSString+CarbonFSSpecCreation.m in Sources */,
+				F7D397FE0546864600BD181E /* FileSizeFormatter.m in Sources */,
+				F7D397FF0546864600BD181E /* InspectorViewController.m in Sources */,
+				F7D398000546864600BD181E /* LiBuiltInFunctions.m in Sources */,
+				F7D398010546864600BD181E /* HFSCodeFormatter.m in Sources */,
+				F7D398020546864600BD181E /* LiImageView.m in Sources */,
+				F7D398030546864600BD181E /* NaturalDateFormatter.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		089C167DFE841241C02AAC07 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				089C167EFE841241C02AAC07 /* English */,
+				F79068B804EF3F5800000104 /* chef */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		F79068AC04EF3EED00000104 /* InspectorViews.nib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				F79068AD04EF3EED00000104 /* English */,
+				F79068B504EF3F0D00000104 /* chef */,
+			);
+			name = InspectorViews.nib;
+			sourceTree = "<group>";
+		};
+		F79068AE04EF3EED00000104 /* BuiltInFunctions.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				F79068AF04EF3EED00000104 /* English */,
+				F79068B604EF3F1700000104 /* chef */,
+			);
+			name = BuiltInFunctions.strings;
+			sourceTree = "<group>";
+		};
+		F79068B004EF3EED00000104 /* ErrorMessages.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				F79068B104EF3EED00000104 /* English */,
+				F79068B704EF3F2600000104 /* chef */,
+			);
+			name = ErrorMessages.strings;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		28986765095DAB7900B5DC99 /* Development */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COPY_PHASE_STRIP = NO;
+				FRAMEWORK_SEARCH_PATHS = ../../Frameworks/build/Development;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_ENABLE_FIX_AND_CONTINUE = YES;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = BuiltInFunctions.h;
+				GCC_TREAT_WARNINGS_AS_ERRORS = NO;
+				GCC_WARN_FOUR_CHARACTER_CONSTANTS = NO;
+				GCC_WARN_UNKNOWN_PRAGMAS = NO;
+				HEADER_SEARCH_PATHS = "";
+				INFOPLIST_FILE = Info.plist;
+				INSTALL_PATH = "@executable_path/../Plugins";
+				LIBRARY_SEARCH_PATHS = "";
+				OTHER_CFLAGS = "";
+				OTHER_LDFLAGS = (
+					"-seg1addr",
+					0x20000000,
+				);
+				PRODUCT_NAME = "Built In Functions";
+				SECTORDER_FLAGS = "";
+				WARNING_CFLAGS = "-Wmost";
+				WRAPPER_EXTENSION = liaisonplugin;
+				ZERO_LINK = YES;
+			};
+			name = Development;
+		};
+		28986766095DAB7900B5DC99 /* Deployment */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CC = "/usr/bin/gcc-3.3";
+				COPY_PHASE_STRIP = YES;
+				CPLUSPLUS = "/usr/bin/g++-3.3";
+				FRAMEWORK_SEARCH_PATHS = ../../Frameworks/build;
+				GCC_ENABLE_FIX_AND_CONTINUE = NO;
+				GCC_PREFIX_HEADER = BuiltInFunctions.h;
+				GCC_TREAT_WARNINGS_AS_ERRORS = YES;
+				GCC_WARN_FOUR_CHARACTER_CONSTANTS = NO;
+				GCC_WARN_UNKNOWN_PRAGMAS = NO;
+				HEADER_SEARCH_PATHS = "";
+				INFOPLIST_FILE = Info.plist;
+				INSTALL_PATH = "@executable_path/../Plugins";
+				LIBRARY_SEARCH_PATHS = "";
+				OTHER_CFLAGS = "";
+				OTHER_LDFLAGS = (
+					"-seg1addr",
+					0x20000000,
+				);
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = "Built In Functions";
+				SECTORDER_FLAGS = "";
+				WARNING_CFLAGS = "-Wmost";
+				WRAPPER_EXTENSION = liaisonplugin;
+				ZERO_LINK = NO;
+			};
+			name = Deployment;
+		};
+		28986767095DAB7900B5DC99 /* Default */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CC = "/usr/bin/gcc-3.3";
+				CPLUSPLUS = "/usr/bin/g++-3.3";
+				FRAMEWORK_SEARCH_PATHS = ../../Frameworks/build;
+				GCC_PREFIX_HEADER = BuiltInFunctions.h;
+				GCC_TREAT_WARNINGS_AS_ERRORS = YES;
+				GCC_WARN_FOUR_CHARACTER_CONSTANTS = NO;
+				GCC_WARN_UNKNOWN_PRAGMAS = NO;
+				HEADER_SEARCH_PATHS = "";
+				INFOPLIST_FILE = Info.plist;
+				INSTALL_PATH = "@executable_path/../Plugins";
+				LIBRARY_SEARCH_PATHS = "";
+				OTHER_CFLAGS = "";
+				OTHER_LDFLAGS = (
+					"-seg1addr",
+					0x20000000,
+				);
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = "Built In Functions";
+				SECTORDER_FLAGS = "";
+				WARNING_CFLAGS = "-Wmost";
+				WRAPPER_EXTENSION = liaisonplugin;
+			};
+			name = Default;
+		};
+		28986769095DAB7900B5DC99 /* Development */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+			};
+			name = Development;
+		};
+		2898676A095DAB7900B5DC99 /* Deployment */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+			};
+			name = Deployment;
+		};
+		2898676B095DAB7900B5DC99 /* Default */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+			};
+			name = Default;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		28986764095DAB7900B5DC99 /* Build configuration list for PBXNativeTarget "Built In Functions" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				28986765095DAB7900B5DC99 /* Development */,
+				28986766095DAB7900B5DC99 /* Deployment */,
+				28986767095DAB7900B5DC99 /* Default */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Default;
+		};
+		28986768095DAB7900B5DC99 /* Build configuration list for PBXProject "BuiltInFunctions" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				28986769095DAB7900B5DC99 /* Development */,
+				2898676A095DAB7900B5DC99 /* Deployment */,
+				2898676B095DAB7900B5DC99 /* Default */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Default;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 089C1669FE841209C02AAC07 /* Project object */;
+}

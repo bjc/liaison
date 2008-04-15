@@ -1,0 +1,26 @@
+/* Headers for columns. */
+IconHeader = "Icon";
+FilenameHeader = "Filename";
+TypeHeader = "Type";
+LastModifiedTimeHeader = "Last Modified";
+CreatedTimeHeader = "Created";
+FileSizeHeader = "Size";
+
+/* Error messages. */
+UnableToResolveAlias = "unable to resolve alias";
+
+/* Default library name. */
+LiLibraryName = "My Library";
+
+/* Names for filters. */
+LiFilenameAttribute = "filename";
+LiTypeAttribute = "type";
+
+/* Names for operators. */
+LiEqualsOperator = "is";
+LiContainsOperator = "contains";
+
+/* For the natural language formatter. */
+Today = "Today";
+Yesterday = "Yesterday";
+Tomorrow = "Tomorrow";

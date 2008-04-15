@@ -1,0 +1,120 @@
+{
+    IBClasses = (
+        {
+            ACTIONS = {
+                openHomepage = id; 
+                showInspectorWindow = id; 
+                showMainWindow = id; 
+                showPreferenceWindow = id; 
+            }; 
+            CLASS = ApplicationController; 
+            LANGUAGE = ObjC; 
+            OUTLETS = {
+                fileDelegate = FileTableDelegate; 
+                fileTableView = NSTableView; 
+                groupDelegate = GroupTableDelegate; 
+                groupOutlineView = NSOutlineView; 
+                inspectorWindow = NSWindow; 
+                mainWindow = NSWindow; 
+                openMenuItem = NSMenuItem; 
+                showInspectorWindowMenuItem = NSMenuItem; 
+                showMainWindowMenuItem = NSMenuItem; 
+            }; 
+            SUPERCLASS = NSObject; 
+        }, 
+        {
+            CLASS = CopyController; 
+            LANGUAGE = ObjC; 
+            OUTLETS = {theFilenameField = NSTextField; theProgressBar = NSProgressIndicator; }; 
+            SUPERCLASS = NSObject; 
+        }, 
+        {
+            ACTIONS = {addFiles = id; }; 
+            CLASS = FileTableDelegate; 
+            LANGUAGE = ObjC; 
+            OUTLETS = {
+                inspectorController = InspectorController; 
+                statusLine = NSTextField; 
+                tableView = NSTableView; 
+            }; 
+            SUPERCLASS = NSObject; 
+        }, 
+        {
+            ACTIONS = {deselectAll = id; }; 
+            CLASS = FirstResponder; 
+            LANGUAGE = ObjC; 
+            SUPERCLASS = NSObject; 
+        }, 
+        {CLASS = FlippedBox; LANGUAGE = ObjC; SUPERCLASS = NSBox; }, 
+        {
+            ACTIONS = {addGroup = id; }; 
+            CLASS = GroupTableDelegate; 
+            LANGUAGE = ObjC; 
+            OUTLETS = {
+                outlineView = NSOutlineView; 
+                statusLine = NSTextField; 
+                theFileDelegate = FileTableDelegate; 
+                theWindow = WindowController; 
+            }; 
+            SUPERCLASS = NSObject; 
+        }, 
+        {
+            CLASS = InspectorController; 
+            LANGUAGE = ObjC; 
+            OUTLETS = {theDefaultTabView = NSView; theTabView = NSTabView; theWindow = NSWindow; }; 
+            SUPERCLASS = NSObject; 
+        }, 
+        {CLASS = LiScrollView; LANGUAGE = ObjC; SUPERCLASS = NSScrollView; }, 
+        {
+            ACTIONS = {delete = id; }; 
+            CLASS = LiTableView; 
+            LANGUAGE = ObjC; 
+            SUPERCLASS = NSTableView; 
+        }, 
+        {
+            ACTIONS = {showDownloadWindow = id; }; 
+            CLASS = NIBConnector; 
+            LANGUAGE = ObjC; 
+            OUTLETS = {
+                theCopyController = CopyController; 
+                theLoadPanelController = LoadPanelController; 
+                thePreferencesController = PreferencesController; 
+            }; 
+            SUPERCLASS = NSObject; 
+        }, 
+        {
+            ACTIONS = {showWindow = id; }; 
+            CLASS = ViewOptionsController; 
+            LANGUAGE = ObjC; 
+            OUTLETS = {
+                theContentView = id; 
+                theFileDelegate = FileTableDelegate; 
+                theHeaderField = id; 
+                theWindow = NSWindow; 
+            }; 
+            SUPERCLASS = NSObject; 
+        }, 
+        {
+            ACTIONS = {
+                addGroup = id; 
+                addToLibrary = id; 
+                openFile = id; 
+                openInspector = id; 
+                removeFiles = id; 
+                removeGroup = id; 
+                revealInFinder = id; 
+            }; 
+            CLASS = WindowController; 
+            LANGUAGE = ObjC; 
+            OUTLETS = {
+                theFileList = NSTableView; 
+                theGroupList = NSOutlineView; 
+                theInspectorWindow = NSWindow; 
+                theMainWindow = NSWindow; 
+                theSearchField = id; 
+            }; 
+            SUPERCLASS = NSObject; 
+        }
+    ); 
+    IBVersion = 1; 
+}

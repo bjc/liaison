@@ -1,0 +1,123 @@
+{
+    IBClasses = (
+        {
+            ACTIONS = {openHomepage = id; showInspectorWindow = id; showMainWindow = id; }; 
+            CLASS = ApplicationController; 
+            LANGUAGE = ObjC; 
+            OUTLETS = {inspectorWindow = NSWindow; mainWindow = NSWindow; }; 
+            SUPERCLASS = NSObject; 
+        }, 
+        {
+            CLASS = CopyController; 
+            LANGUAGE = ObjC; 
+            OUTLETS = {theFilenameField = NSTextField; theProgressBar = NSProgressIndicator; }; 
+            SUPERCLASS = NSObject; 
+        }, 
+        {
+            ACTIONS = {addFiles = id; open = id; }; 
+            CLASS = FileTableDelegate; 
+            LANGUAGE = ObjC; 
+            OUTLETS = {
+                inspectorController = InspectorController; 
+                statusLine = NSTextField; 
+                tableView = NSTableView; 
+                theContextMenu = NSMenu; 
+            }; 
+            SUPERCLASS = NSObject; 
+        }, 
+        {
+            ACTIONS = {
+                addFilterRow = id; 
+                libraryUpdated = id; 
+                removeFilterRow = id; 
+                showWindow = id; 
+            }; 
+            CLASS = FindController; 
+            LANGUAGE = ObjC; 
+            OUTLETS = {
+                theFileList = NSTableView; 
+                theFilterBox = NSBox; 
+                theFindView = NSView; 
+                theFindWindow = NSWindow; 
+                theLibraryPopUp = NSPopUpButton; 
+                theOperatorPopUp = NSPopUpButton; 
+            }; 
+            SUPERCLASS = NSObject; 
+        }, 
+        {
+            ACTIONS = {deselectAll = id; openSelectedFiles = id; revealInFinder = id; }; 
+            CLASS = FirstResponder; 
+            LANGUAGE = ObjC; 
+            SUPERCLASS = NSObject; 
+        }, 
+        {CLASS = FlippedBox; LANGUAGE = ObjC; SUPERCLASS = NSBox; }, 
+        {
+            ACTIONS = {addGroup = id; }; 
+            CLASS = GroupTableDelegate; 
+            LANGUAGE = ObjC; 
+            OUTLETS = {
+                outlineView = NSOutlineView; 
+                statusLine = NSTextField; 
+                theContextMenu = NSMenu; 
+                theFileDelegate = FileTableDelegate; 
+                theWindow = WindowController; 
+            }; 
+            SUPERCLASS = NSObject; 
+        }, 
+        {
+            CLASS = InspectorController; 
+            LANGUAGE = ObjC; 
+            OUTLETS = {theDefaultTabView = NSView; theTabView = NSTabView; theWindow = NSWindow; }; 
+            SUPERCLASS = NSObject; 
+        }, 
+        {CLASS = LiScrollView; LANGUAGE = ObjC; SUPERCLASS = NSScrollView; }, 
+        {
+            ACTIONS = {delete = id; }; 
+            CLASS = LiTableView; 
+            LANGUAGE = ObjC; 
+            SUPERCLASS = NSTableView; 
+        }, 
+        {
+            ACTIONS = {showDownloadWindow = id; showPreferencesWindow = id; }; 
+            CLASS = NIBConnector; 
+            LANGUAGE = ObjC; 
+            OUTLETS = {
+                theCopyController = CopyController; 
+                theLoadPanelController = LoadPanelController; 
+                thePreferencesController = PreferencesController; 
+            }; 
+            SUPERCLASS = NSObject; 
+        }, 
+        {
+            ACTIONS = {delete = id; }; 
+            CLASS = NSOutlineView; 
+            LANGUAGE = ObjC; 
+            SUPERCLASS = NSTableView; 
+        }, 
+        {
+            ACTIONS = {showWindow = id; }; 
+            CLASS = ViewOptionsController; 
+            LANGUAGE = ObjC; 
+            OUTLETS = {
+                theContentView = id; 
+                theFileDelegate = FileTableDelegate; 
+                theHeaderField = id; 
+                theWindow = NSWindow; 
+            }; 
+            SUPERCLASS = NSObject; 
+        }, 
+        {
+            CLASS = WindowController; 
+            LANGUAGE = ObjC; 
+            OUTLETS = {
+                theFileList = NSTableView; 
+                theGroupList = NSOutlineView; 
+                theInspectorWindow = NSWindow; 
+                theMainWindow = NSWindow; 
+                theSearchField = id; 
+            }; 
+            SUPERCLASS = NSObject; 
+        }
+    ); 
+    IBVersion = 1; 
+}

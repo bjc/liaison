@@ -1,0 +1,25 @@
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN"
+        "http://www.w3.org/TR/1999/REC-html401-19991224/loose.dtd">
+<html lang="en">
+<head>
+	<title>Known Bugs</title>
+	<meta name="generator" content="BBEdit 6.5">
+</head>
+
+<body>
+<h1>Known Bugs</h1>
+<ul>
+	<li>Help is woefully incomplete.</li>
+	<li>Find panel doesn't do anything.</li>
+	<li>Applescript support isn't very useful.</li>
+	<li>The "Open" and "Show in Finder" menu items don't dim properly when the file table
+	isn't the first responder.</li>
+	<li>The view options do not update based on key window.</li>
+	<li>It's possible to get duplicate files if you remove a file from a path, move a new
+	file into the same path, and then add the new file to the library. (The old file handle
+	now resolves to the new file, and then you add the new file again - using alias data as
+	the primary key should fix this, but it's still possible - perhaps alias data isn't
+	being updated properly when the new file is found?)</li>
+</ul>
+</body>
+</html>

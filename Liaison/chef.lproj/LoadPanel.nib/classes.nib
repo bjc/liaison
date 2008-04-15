@@ -1,0 +1,28 @@
+{
+    IBClasses = (
+        {CLASS = FirstResponder; LANGUAGE = ObjC; SUPERCLASS = NSObject; }, 
+        {
+            CLASS = LoadPanelController; 
+            LANGUAGE = ObjC; 
+            OUTLETS = {
+                theLoadPanel = NSPanel; 
+                thePathField = NSTextField; 
+                theProgressBar = NSProgressIndicator; 
+                theStatusField = NSTextField; 
+            }; 
+            SUPERCLASS = NSObject; 
+        }, 
+        {
+            ACTIONS = {showDownloadWindow = id; }; 
+            CLASS = NIBConnector; 
+            LANGUAGE = ObjC; 
+            OUTLETS = {
+                theCopyController = CopyController; 
+                theLoadPanelController = LoadPanelController; 
+                thePreferencesController = PreferencesController; 
+            }; 
+            SUPERCLASS = NSObject; 
+        }
+    ); 
+    IBVersion = 1; 
+}

@@ -1,0 +1,37 @@
+/* Common strings */
+LiFileSingular = "feele-a";
+LiFilePlural = "feeles";
+
+/* Default group names. */
+LiRendezvousGroupName = "Rendezfuoos";
+LiUntitledGroupName = "unteetled";
+
+/* Toolbar strings. */
+LiToolbarAddFileLabel = "Edd Feeles";
+LiToolbarAddFilePaletteLabel = "Edd Feeles tu Leebrery";
+LiToolbarAddFileToolTip = "Edd feeles tu yuoor leebrery.";
+LiToolbarRemoveFileLabel = "Remufe-a Feele-a";
+LiToolbarRemoveFilesLabel = "Remufe-a Feeles";
+LiToolbarRemoveFilePaletteLabel = "Remufe-a frum Gruoop";
+LiToolbarRemoveFileToolTip = "Remufe-a zee coorrently selected feeles.";
+LiToolbarRemoveFilesFromLibraryToolTip = "Remufe-a zee coorrently selected %@ frum yuoor leebrery.";
+LiToolbarRemoveFilesFromGroupToolTip = "Remufe-a zee coorrently selected %@ frum zee gruoop.";
+LiToolbarSearchLabel = "Seerch";
+LiToolbarSearchPaletteLabel = "Seerch in Gruoop";
+LiToolbarSearchToolTip = "Seerch in selected gruoop.";
+LiToolbarGetInfoLabel = "Get Inffu";
+LiToolbarGetInfoPaletteLabel = "Get Inffu";
+LiToolbarGetInfoToolTip = "Oopee zee inspectur veendoo.";
+LiToolbarAddGroupLabel = "Edd Gruoop";
+LiToolbarAddGroupPaletteLabel = "Edd Gruoop";
+LiToolbarAddGroupToolTip = "Creete-a a noo gruoop.";
+LiToolbarRemoveGroupLabel = "Delete-a Gruoop";
+LiToolbarRemoveGroupPaletteLabel = "Delete-a Gruoop";
+LiToolbarRemoveGroupToolTip = "Deletes zee coorrently selected gruoop.";
+LiToolbarRevealLabel = "Shoo in Finder";
+LiToolbarRevealPaletteLabel = "Shoo in Finder";
+LiToolbarRevealToolTip = "Shoo zee selected item in zee Finder.";
+
+/* File load panel. */
+LiLoadPanelTitle = "Edd tu Leebrery";
+LiLoadingDirectory = "Scunneeng: ";

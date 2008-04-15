@@ -1,0 +1,10 @@
+/* Errors for file rename operations. */
+LiGenericRenameErrorHeader = "Zee feele-a cuooldn't be-a renemed.";
+LiGenericRenameErrorContents = "Try shekeeng a deed cheeckee (oor cheeckee soobsteetoote-a) et zee screee.";
+
+LiBadFilenameErrorHeader = "Zee feele-a cuooldn't be-a renemed becoose-a it cunteeened un illegel cherecter.";
+LiBadFilenameErrorContents = "Yuoo cun try tu reneme-a zee feele-a veethuoot zee slesh \"/\" oor culun \":\" cherecters.";
+LiReadOnlyFileSytemErrorHeader = "Zee feele-a cuooldn't be-a mudeeffied becoose-a zee feelesystem is reed-oonly.";
+LiReadOnlyFileSytemErrorContents = "Yuoo need tu telk tu yuoor system edmeenistretur tu feex thees.";
+LiPermissionDeniedErrorHeader = "Zee feele-a cuooldn't be-a mudeeffied becoose-a yuoo leck permeessiun tu chunge-a zee feele-a.";
+LiPermissionDeniedErrorContents = "Yuoo cun mudeeffy yuoor fulder permeessiuns in zee Feender.";

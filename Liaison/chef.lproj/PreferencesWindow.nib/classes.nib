@@ -1,0 +1,50 @@
+{
+    IBClasses = (
+        {
+            ACTIONS = {
+                addFiles = id; 
+                addGroup = id; 
+                removeGroup = id; 
+                showInspectorWindow = id; 
+                showMainWindow = id; 
+            }; 
+            CLASS = ApplicationController; 
+            LANGUAGE = ObjC; 
+            OUTLETS = {
+                fileDelegate = FileTableDelegate; 
+                fileTableView = NSTableView; 
+                groupDelegate = GroupTableDelegate; 
+                groupOutlineView = NSOutlineView; 
+                inspectorWindow = NSWindow; 
+                mainWindow = NSWindow; 
+                openMenuItem = NSMenuItem; 
+                showInspectorWindowMenuItem = NSMenuItem; 
+                showMainWindowMenuItem = NSMenuItem; 
+                thePanelController = LoadPanelController; 
+                thePreferenceController = PreferenceController; 
+            }; 
+            SUPERCLASS = NSObject; 
+        }, 
+        {CLASS = FirstResponder; LANGUAGE = ObjC; SUPERCLASS = NSObject; }, 
+        {
+            CLASS = NIBConnector; 
+            LANGUAGE = ObjC; 
+            OUTLETS = {thePreferencesController = PreferencesController; }; 
+            SUPERCLASS = NSObject; 
+        }, 
+        {
+            ACTIONS = {applyChanges = id; selectDownloadDirectory = id; toggleNetworkEnabled = id; }; 
+            CLASS = PreferencesController; 
+            LANGUAGE = ObjC; 
+            OUTLETS = {
+                theDownloadField = NSTextField; 
+                theHostnameField = NSTextField; 
+                theHostnameFieldDescription = NSTextField; 
+                theNetworkEnabledButton = NSButton; 
+                theWindow = NSWindow; 
+            }; 
+            SUPERCLASS = NSObject; 
+        }
+    ); 
+    IBVersion = 1; 
+}

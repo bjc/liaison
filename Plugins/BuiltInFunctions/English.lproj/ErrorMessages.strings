@@ -1,0 +1,10 @@
+/* Errors for file rename operations. */
+LiGenericRenameErrorHeader = "The file couldn't be renamed.";
+LiGenericRenameErrorContents = "Try shaking a dead chicken (or chicken substitute) at the screen.";
+
+LiBadFilenameErrorHeader = "The file couldn't be renamed because it contained an illegal character.";
+LiBadFilenameErrorContents = "You can try to rename the file without the slash \"/\" or colon \":\" characters.";
+LiReadOnlyFileSytemErrorHeader = "The file couldn't be modified because the filesystem is read-only.";
+LiReadOnlyFileSytemErrorContents = "You need to talk to your system administrator to fix this.";
+LiPermissionDeniedErrorHeader = "The file couldn't be modified because you lack permission to change the file.";
+LiPermissionDeniedErrorContents = "You can modify your folder permissions in the Finder.";

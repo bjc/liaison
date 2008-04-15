@@ -1,0 +1,38 @@
+{
+    IBClasses = (
+        {CLASS = FirstResponder; LANGUAGE = ObjC; SUPERCLASS = NSObject; }, 
+        {CLASS = HFSCodeFormatter; LANGUAGE = ObjC; SUPERCLASS = NSFormatter; }, 
+        {
+            ACTIONS = {
+                setApplication = id; 
+                setFilename = id; 
+                setHFSCreatorField = id; 
+                setHFSTypeField = id; 
+                setIcon = id; 
+                setType = id; 
+            }; 
+            CLASS = InspectorViewController; 
+            LANGUAGE = ObjC; 
+            OUTLETS = {
+                hfsCreatorField = NSTextField; 
+                hfsTypeField = NSTextField; 
+                iconView = NSImageView; 
+                pathField = NSTextField; 
+                theApplicationButton = NSPopUpButton; 
+                theFileTabView = NSView; 
+                theFilenameField = NSTextField; 
+                theHFSTabView = NSView; 
+                theTypeField = NSTextField; 
+            }; 
+            SUPERCLASS = NSObject; 
+        }, 
+        {
+            CLASS = LiBuiltInFunctions; 
+            LANGUAGE = ObjC; 
+            OUTLETS = {theController = InspectorViewController; }; 
+            SUPERCLASS = NSObject; 
+        }, 
+        {CLASS = LiImageView; LANGUAGE = ObjC; SUPERCLASS = NSImageView; }
+    ); 
+    IBVersion = 1; 
+}

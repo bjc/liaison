@@ -1,0 +1,612 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 42;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		F7D39781054685A000BD181E /* LiLog.h in Headers */ = {isa = PBXBuildFile; fileRef = F7585F8004EF2F8C00000104 /* LiLog.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		F7D39782054685A000BD181E /* LiPreferences.h in Headers */ = {isa = PBXBuildFile; fileRef = F7585F8104EF2F8C00000104 /* LiPreferences.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		F7D39783054685A000BD181E /* LiStoreValidator.h in Headers */ = {isa = PBXBuildFile; fileRef = F7585F8204EF2F8C00000104 /* LiStoreValidator.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		F7D39784054685A000BD181E /* LiBackend.h in Headers */ = {isa = PBXBuildFile; fileRef = F7585F8904EF2F9D00000104 /* LiBackend.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		F7D39785054685A000BD181E /* LiFileStore.h in Headers */ = {isa = PBXBuildFile; fileRef = F7585F8C04EF2F9D00000104 /* LiFileStore.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		F7D39786054685A000BD181E /* LiFileHandle.h in Headers */ = {isa = PBXBuildFile; fileRef = F7585F8D04EF2F9D00000104 /* LiFileHandle.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		F7D39787054685A000BD181E /* LiFilter.h in Headers */ = {isa = PBXBuildFile; fileRef = F7A5B69104F7206C00000104 /* LiFilter.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		F7D3978A054685A000BD181E /* LiBackend.scriptSuite in Resources */ = {isa = PBXBuildFile; fileRef = F7585F9304EF2FAD00000104 /* LiBackend.scriptSuite */; };
+		F7D3978B054685A000BD181E /* LiBackend.scriptTerminology in Resources */ = {isa = PBXBuildFile; fileRef = F7585F9704EF2FD800000104 /* LiBackend.scriptTerminology */; };
+		F7D3978D054685A000BD181E /* LiStoreValidator.m in Sources */ = {isa = PBXBuildFile; fileRef = F7585F7D04EF2F8C00000104 /* LiStoreValidator.m */; };
+		F7D3978E054685A000BD181E /* LiLog.m in Sources */ = {isa = PBXBuildFile; fileRef = F7585F7E04EF2F8C00000104 /* LiLog.m */; };
+		F7D3978F054685A000BD181E /* LiPreferences.m in Sources */ = {isa = PBXBuildFile; fileRef = F7585F7F04EF2F8C00000104 /* LiPreferences.m */; };
+		F7D39790054685A000BD181E /* LiFileHandle.m in Sources */ = {isa = PBXBuildFile; fileRef = F7585F8A04EF2F9D00000104 /* LiFileHandle.m */; };
+		F7D39791054685A000BD181E /* LiFileStore.m in Sources */ = {isa = PBXBuildFile; fileRef = F7585F8B04EF2F9D00000104 /* LiFileStore.m */; };
+		F7D39792054685A000BD181E /* LiFilter.m in Sources */ = {isa = PBXBuildFile; fileRef = F7A5B69204F7206C00000104 /* LiFilter.m */; };
+		F7D39794054685A000BD181E /* Cocoa.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1058C7B1FEA5585E11CA2CBB /* Cocoa.framework */; };
+		F7D3979E054685AE00BD181E /* LiBrowserColumn.h in Headers */ = {isa = PBXBuildFile; fileRef = F7D5A4D004EF396F00000104 /* LiBrowserColumn.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		F7D3979F054685AE00BD181E /* LiInspectorView.h in Headers */ = {isa = PBXBuildFile; fileRef = F7D5A4D204EF396F00000104 /* LiInspectorView.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		F7D397A0054685AE00BD181E /* LiPlugin.h in Headers */ = {isa = PBXBuildFile; fileRef = F7D5A4D404EF396F00000104 /* LiPlugin.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		F7D397A1054685AE00BD181E /* LiFilterDescription.h in Headers */ = {isa = PBXBuildFile; fileRef = F7A5B68D04F71E7900000104 /* LiFilterDescription.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		F7D397A4054685AE00BD181E /* LiBrowserColumn.m in Sources */ = {isa = PBXBuildFile; fileRef = F7D5A4D104EF396F00000104 /* LiBrowserColumn.m */; };
+		F7D397A5054685AE00BD181E /* LiInspectorView.m in Sources */ = {isa = PBXBuildFile; fileRef = F7D5A4D304EF396F00000104 /* LiInspectorView.m */; };
+		F7D397A6054685AE00BD181E /* LiFilterDescription.m in Sources */ = {isa = PBXBuildFile; fileRef = F7A5B68E04F71E7900000104 /* LiFilterDescription.m */; };
+		F7D397A8054685AE00BD181E /* Cocoa.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1058C7B1FEA5585E11CA2CBB /* Cocoa.framework */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		F7D397680546855800BD181E /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 0867D690FE84028FC02AAC07 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = F7D3977F054685A000BD181E;
+			remoteInfo = LiBackend;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		0867D69BFE84028FC02AAC07 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = /System/Library/Frameworks/Foundation.framework; sourceTree = "<absolute>"; };
+		0867D6A5FE840307C02AAC07 /* AppKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AppKit.framework; path = /System/Library/Frameworks/AppKit.framework; sourceTree = "<absolute>"; };
+		1058C7B1FEA5585E11CA2CBB /* Cocoa.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Cocoa.framework; path = /System/Library/Frameworks/Cocoa.framework; sourceTree = "<absolute>"; };
+		F7585F7D04EF2F8C00000104 /* LiStoreValidator.m */ = {isa = PBXFileReference; fileEncoding = 30; lastKnownFileType = sourcecode.c.objc; path = LiStoreValidator.m; sourceTree = "<group>"; };
+		F7585F7E04EF2F8C00000104 /* LiLog.m */ = {isa = PBXFileReference; fileEncoding = 30; lastKnownFileType = sourcecode.c.objc; path = LiLog.m; sourceTree = "<group>"; };
+		F7585F7F04EF2F8C00000104 /* LiPreferences.m */ = {isa = PBXFileReference; fileEncoding = 30; lastKnownFileType = sourcecode.c.objc; path = LiPreferences.m; sourceTree = "<group>"; };
+		F7585F8004EF2F8C00000104 /* LiLog.h */ = {isa = PBXFileReference; fileEncoding = 30; lastKnownFileType = sourcecode.c.h; path = LiLog.h; sourceTree = "<group>"; };
+		F7585F8104EF2F8C00000104 /* LiPreferences.h */ = {isa = PBXFileReference; fileEncoding = 30; lastKnownFileType = sourcecode.c.h; path = LiPreferences.h; sourceTree = "<group>"; };
+		F7585F8204EF2F8C00000104 /* LiStoreValidator.h */ = {isa = PBXFileReference; fileEncoding = 30; lastKnownFileType = sourcecode.c.h; path = LiStoreValidator.h; sourceTree = "<group>"; };
+		F7585F8904EF2F9D00000104 /* LiBackend.h */ = {isa = PBXFileReference; fileEncoding = 30; lastKnownFileType = sourcecode.c.h; path = LiBackend.h; sourceTree = "<group>"; };
+		F7585F8A04EF2F9D00000104 /* LiFileHandle.m */ = {isa = PBXFileReference; fileEncoding = 30; lastKnownFileType = sourcecode.c.objc; path = LiFileHandle.m; sourceTree = "<group>"; };
+		F7585F8B04EF2F9D00000104 /* LiFileStore.m */ = {isa = PBXFileReference; fileEncoding = 30; lastKnownFileType = sourcecode.c.objc; path = LiFileStore.m; sourceTree = "<group>"; };
+		F7585F8C04EF2F9D00000104 /* LiFileStore.h */ = {isa = PBXFileReference; fileEncoding = 30; lastKnownFileType = sourcecode.c.h; path = LiFileStore.h; sourceTree = "<group>"; };
+		F7585F8D04EF2F9D00000104 /* LiFileHandle.h */ = {isa = PBXFileReference; fileEncoding = 30; lastKnownFileType = sourcecode.c.h; path = LiFileHandle.h; sourceTree = "<group>"; };
+		F7585F9304EF2FAD00000104 /* LiBackend.scriptSuite */ = {isa = PBXFileReference; lastKnownFileType = text.xml; path = LiBackend.scriptSuite; sourceTree = "<group>"; };
+		F7585F9504EF2FC500000104 /* LiBackend.scriptTerminology */ = {isa = PBXFileReference; lastKnownFileType = text.xml; name = LiBackend.scriptTerminology; path = LiBackend/English.lproj/LiBackend.scriptTerminology; sourceTree = "<group>"; };
+		F7A5B68D04F71E7900000104 /* LiFilterDescription.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LiFilterDescription.h; sourceTree = "<group>"; };
+		F7A5B68E04F71E7900000104 /* LiFilterDescription.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = LiFilterDescription.m; path = LiPlugin/LiFilterDescription.m; sourceTree = SOURCE_ROOT; };
+		F7A5B69104F7206C00000104 /* LiFilter.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LiFilter.h; sourceTree = "<group>"; };
+		F7A5B69204F7206C00000104 /* LiFilter.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LiFilter.m; sourceTree = "<group>"; };
+		F7B4D378054B51FC006D06CC /* Info.plist */ = {isa = PBXFileReference; fileEncoding = 30; lastKnownFileType = text.plist; path = Info.plist; sourceTree = "<group>"; };
+		F7B4D37A054B521D006D06CC /* Info.plist */ = {isa = PBXFileReference; fileEncoding = 30; lastKnownFileType = text.plist; path = Info.plist; sourceTree = "<group>"; };
+		F7D39798054685A000BD181E /* LiBackend.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = LiBackend.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		F7D397AC054685AE00BD181E /* LiPlugin.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = LiPlugin.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		F7D5A4D004EF396F00000104 /* LiBrowserColumn.h */ = {isa = PBXFileReference; fileEncoding = 30; lastKnownFileType = sourcecode.c.h; path = LiBrowserColumn.h; sourceTree = "<group>"; };
+		F7D5A4D104EF396F00000104 /* LiBrowserColumn.m */ = {isa = PBXFileReference; fileEncoding = 30; lastKnownFileType = sourcecode.c.objc; path = LiBrowserColumn.m; sourceTree = "<group>"; };
+		F7D5A4D204EF396F00000104 /* LiInspectorView.h */ = {isa = PBXFileReference; fileEncoding = 30; lastKnownFileType = sourcecode.c.h; path = LiInspectorView.h; sourceTree = "<group>"; };
+		F7D5A4D304EF396F00000104 /* LiInspectorView.m */ = {isa = PBXFileReference; fileEncoding = 30; lastKnownFileType = sourcecode.c.objc; path = LiInspectorView.m; sourceTree = "<group>"; };
+		F7D5A4D404EF396F00000104 /* LiPlugin.h */ = {isa = PBXFileReference; fileEncoding = 30; lastKnownFileType = sourcecode.c.h; path = LiPlugin.h; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		F7D39793054685A000BD181E /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F7D39794054685A000BD181E /* Cocoa.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F7D397A7054685AE00BD181E /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F7D397A8054685AE00BD181E /* Cocoa.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		034768DFFF38A50411DB9C8B /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				F7D39798054685A000BD181E /* LiBackend.framework */,
+				F7D397AC054685AE00BD181E /* LiPlugin.framework */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		0867D691FE84028FC02AAC07 /* LiBackend */ = {
+			isa = PBXGroup;
+			children = (
+				F7D5A4A904EF396B00000104 /* LiPlugin */,
+				08FB77AEFE84172EC02AAC07 /* LiBackend */,
+				0867D69AFE84028FC02AAC07 /* External Frameworks and Libraries */,
+				034768DFFF38A50411DB9C8B /* Products */,
+			);
+			name = LiBackend;
+			sourceTree = "<group>";
+		};
+		0867D69AFE84028FC02AAC07 /* External Frameworks and Libraries */ = {
+			isa = PBXGroup;
+			children = (
+				1058C7B0FEA5585E11CA2CBB /* Linked Frameworks */,
+				1058C7B2FEA5585E11CA2CBB /* Other Frameworks */,
+			);
+			name = "External Frameworks and Libraries";
+			sourceTree = "<group>";
+		};
+		08FB77AEFE84172EC02AAC07 /* LiBackend */ = {
+			isa = PBXGroup;
+			children = (
+				F7585F8904EF2F9D00000104 /* LiBackend.h */,
+				F7585F8D04EF2F9D00000104 /* LiFileHandle.h */,
+				F7585F8A04EF2F9D00000104 /* LiFileHandle.m */,
+				F7585F8C04EF2F9D00000104 /* LiFileStore.h */,
+				F7585F8B04EF2F9D00000104 /* LiFileStore.m */,
+				F7A5B69104F7206C00000104 /* LiFilter.h */,
+				F7A5B69204F7206C00000104 /* LiFilter.m */,
+				F7585F8004EF2F8C00000104 /* LiLog.h */,
+				F7585F7E04EF2F8C00000104 /* LiLog.m */,
+				F7585F8104EF2F8C00000104 /* LiPreferences.h */,
+				F7585F7F04EF2F8C00000104 /* LiPreferences.m */,
+				F7585F8204EF2F8C00000104 /* LiStoreValidator.h */,
+				F7585F7D04EF2F8C00000104 /* LiStoreValidator.m */,
+				F7BD554A04F3506D00000104 /* Resources */,
+			);
+			path = LiBackend;
+			sourceTree = "<group>";
+		};
+		1058C7B0FEA5585E11CA2CBB /* Linked Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				1058C7B1FEA5585E11CA2CBB /* Cocoa.framework */,
+			);
+			name = "Linked Frameworks";
+			sourceTree = "<group>";
+		};
+		1058C7B2FEA5585E11CA2CBB /* Other Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				0867D69BFE84028FC02AAC07 /* Foundation.framework */,
+				0867D6A5FE840307C02AAC07 /* AppKit.framework */,
+			);
+			name = "Other Frameworks";
+			sourceTree = "<group>";
+		};
+		F7BD554904F3506000000104 /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				F7B4D37A054B521D006D06CC /* Info.plist */,
+			);
+			name = Resources;
+			sourceTree = "<group>";
+		};
+		F7BD554A04F3506D00000104 /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				F7B4D378054B51FC006D06CC /* Info.plist */,
+				F7585F9304EF2FAD00000104 /* LiBackend.scriptSuite */,
+				F7585F9704EF2FD800000104 /* LiBackend.scriptTerminology */,
+			);
+			name = Resources;
+			sourceTree = "<group>";
+		};
+		F7D5A4A904EF396B00000104 /* LiPlugin */ = {
+			isa = PBXGroup;
+			children = (
+				F7D5A4D404EF396F00000104 /* LiPlugin.h */,
+				F7D5A4D004EF396F00000104 /* LiBrowserColumn.h */,
+				F7D5A4D104EF396F00000104 /* LiBrowserColumn.m */,
+				F7D5A4D204EF396F00000104 /* LiInspectorView.h */,
+				F7D5A4D304EF396F00000104 /* LiInspectorView.m */,
+				F7A5B68D04F71E7900000104 /* LiFilterDescription.h */,
+				F7A5B68E04F71E7900000104 /* LiFilterDescription.m */,
+				F7BD554904F3506000000104 /* Resources */,
+			);
+			path = LiPlugin;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXHeadersBuildPhase section */
+		F7D39780054685A000BD181E /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F7D39781054685A000BD181E /* LiLog.h in Headers */,
+				F7D39782054685A000BD181E /* LiPreferences.h in Headers */,
+				F7D39783054685A000BD181E /* LiStoreValidator.h in Headers */,
+				F7D39784054685A000BD181E /* LiBackend.h in Headers */,
+				F7D39785054685A000BD181E /* LiFileStore.h in Headers */,
+				F7D39786054685A000BD181E /* LiFileHandle.h in Headers */,
+				F7D39787054685A000BD181E /* LiFilter.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F7D3979D054685AE00BD181E /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F7D3979E054685AE00BD181E /* LiBrowserColumn.h in Headers */,
+				F7D3979F054685AE00BD181E /* LiInspectorView.h in Headers */,
+				F7D397A0054685AE00BD181E /* LiPlugin.h in Headers */,
+				F7D397A1054685AE00BD181E /* LiFilterDescription.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXHeadersBuildPhase section */
+
+/* Begin PBXNativeTarget section */
+		F7D3977F054685A000BD181E /* LiBackend */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 2898673C095DAB1500B5DC99 /* Build configuration list for PBXNativeTarget "LiBackend" */;
+			buildPhases = (
+				F7D39780054685A000BD181E /* Headers */,
+				F7D39788054685A000BD181E /* Resources */,
+				F7D3978C054685A000BD181E /* Sources */,
+				F7D39793054685A000BD181E /* Frameworks */,
+				F7D39795054685A000BD181E /* Rez */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = LiBackend;
+			productInstallPath = "@executable_path/../Frameworks";
+			productName = LiBackend;
+			productReference = F7D39798054685A000BD181E /* LiBackend.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		F7D3979B054685AE00BD181E /* LiPlugin */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 28986740095DAB1500B5DC99 /* Build configuration list for PBXNativeTarget "LiPlugin" */;
+			buildPhases = (
+				F7D3979D054685AE00BD181E /* Headers */,
+				F7D397A2054685AE00BD181E /* Resources */,
+				F7D397A3054685AE00BD181E /* Sources */,
+				F7D397A7054685AE00BD181E /* Frameworks */,
+				F7D397A9054685AE00BD181E /* Rez */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				F7D3979C054685AE00BD181E /* PBXTargetDependency */,
+			);
+			name = LiPlugin;
+			productInstallPath = "@executable_path/../Frameworks";
+			productName = LiPlugin;
+			productReference = F7D397AC054685AE00BD181E /* LiPlugin.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		0867D690FE84028FC02AAC07 /* Project object */ = {
+			isa = PBXProject;
+			buildConfigurationList = 28986744095DAB1500B5DC99 /* Build configuration list for PBXProject "LiFrameworks" */;
+			compatibilityVersion = "Xcode 2.4";
+			hasScannedForEncodings = 1;
+			knownRegions = (
+				English,
+				Japanese,
+				French,
+				German,
+				chef,
+			);
+			mainGroup = 0867D691FE84028FC02AAC07 /* LiBackend */;
+			productRefGroup = 034768DFFF38A50411DB9C8B /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				F7D3979B054685AE00BD181E /* LiPlugin */,
+				F7D3977F054685A000BD181E /* LiBackend */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		F7D39788054685A000BD181E /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F7D3978A054685A000BD181E /* LiBackend.scriptSuite in Resources */,
+				F7D3978B054685A000BD181E /* LiBackend.scriptTerminology in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F7D397A2054685AE00BD181E /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXRezBuildPhase section */
+		F7D39795054685A000BD181E /* Rez */ = {
+			isa = PBXRezBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F7D397A9054685AE00BD181E /* Rez */ = {
+			isa = PBXRezBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXRezBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		F7D3978C054685A000BD181E /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F7D3978D054685A000BD181E /* LiStoreValidator.m in Sources */,
+				F7D3978E054685A000BD181E /* LiLog.m in Sources */,
+				F7D3978F054685A000BD181E /* LiPreferences.m in Sources */,
+				F7D39790054685A000BD181E /* LiFileHandle.m in Sources */,
+				F7D39791054685A000BD181E /* LiFileStore.m in Sources */,
+				F7D39792054685A000BD181E /* LiFilter.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F7D397A3054685AE00BD181E /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F7D397A4054685AE00BD181E /* LiBrowserColumn.m in Sources */,
+				F7D397A5054685AE00BD181E /* LiInspectorView.m in Sources */,
+				F7D397A6054685AE00BD181E /* LiFilterDescription.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		F7D3979C054685AE00BD181E /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = F7D3977F054685A000BD181E /* LiBackend */;
+			targetProxy = F7D397680546855800BD181E /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		F7585F9704EF2FD800000104 /* LiBackend.scriptTerminology */ = {
+			isa = PBXVariantGroup;
+			children = (
+				F7585F9504EF2FC500000104 /* LiBackend.scriptTerminology */,
+			);
+			name = LiBackend.scriptTerminology;
+			sourceTree = SOURCE_ROOT;
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		2898673D095DAB1500B5DC99 /* Development */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COPY_PHASE_STRIP = NO;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				FRAMEWORK_VERSION = A;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_ENABLE_FIX_AND_CONTINUE = YES;
+				GCC_ENABLE_SSE3_EXTENSIONS = YES;
+				GCC_ENABLE_SUPPLEMENTAL_SSE3_INSTRUCTIONS = YES;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = LiBackend/LiBackend.h;
+				GCC_TREAT_WARNINGS_AS_ERRORS = YES;
+				GCC_WARN_FOUR_CHARACTER_CONSTANTS = NO;
+				GCC_WARN_UNKNOWN_PRAGMAS = NO;
+				HEADER_SEARCH_PATHS = "";
+				INFOPLIST_FILE = LiBackend/Info.plist;
+				INSTALL_PATH = "@executable_path/../Frameworks";
+				LIBRARY_SEARCH_PATHS = "";
+				OTHER_LDFLAGS = (
+					"-seg1addr",
+					0x10000000,
+				);
+				PRODUCT_NAME = LiBackend;
+				SECTORDER_FLAGS = "";
+				WARNING_CFLAGS = "-Wmost";
+				WRAPPER_EXTENSION = framework;
+				ZERO_LINK = YES;
+			};
+			name = Development;
+		};
+		2898673E095DAB1500B5DC99 /* Deployment */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CC = "/usr/bin/gcc-3.3";
+				COPY_PHASE_STRIP = YES;
+				CPLUSPLUS = "/usr/bin/g++-3.3";
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				FRAMEWORK_VERSION = A;
+				GCC_ENABLE_FIX_AND_CONTINUE = NO;
+				GCC_PREFIX_HEADER = LiBackend/LiBackend.h;
+				GCC_TREAT_WARNINGS_AS_ERRORS = YES;
+				GCC_WARN_FOUR_CHARACTER_CONSTANTS = NO;
+				GCC_WARN_UNKNOWN_PRAGMAS = NO;
+				HEADER_SEARCH_PATHS = "";
+				INFOPLIST_FILE = Info.plist;
+				INSTALL_PATH = "@executable_path/../Frameworks";
+				LIBRARY_SEARCH_PATHS = "";
+				OTHER_LDFLAGS = (
+					"-seg1addr",
+					0x10000000,
+				);
+				PRODUCT_NAME = LiBackend;
+				SECTORDER_FLAGS = "";
+				WARNING_CFLAGS = "-Wmost";
+				WRAPPER_EXTENSION = framework;
+				ZERO_LINK = NO;
+			};
+			name = Deployment;
+		};
+		2898673F095DAB1500B5DC99 /* Default */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CC = "/usr/bin/gcc-3.3";
+				CPLUSPLUS = "/usr/bin/g++-3.3";
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				FRAMEWORK_VERSION = A;
+				GCC_PREFIX_HEADER = LiBackend/LiBackend.h;
+				GCC_TREAT_WARNINGS_AS_ERRORS = YES;
+				GCC_WARN_FOUR_CHARACTER_CONSTANTS = NO;
+				GCC_WARN_UNKNOWN_PRAGMAS = NO;
+				HEADER_SEARCH_PATHS = "";
+				INFOPLIST_FILE = Info.plist;
+				INSTALL_PATH = "@executable_path/../Frameworks";
+				LIBRARY_SEARCH_PATHS = "";
+				OTHER_LDFLAGS = (
+					"-seg1addr",
+					0x10000000,
+				);
+				PRODUCT_NAME = LiBackend;
+				SECTORDER_FLAGS = "";
+				WARNING_CFLAGS = "-Wmost";
+				WRAPPER_EXTENSION = framework;
+			};
+			name = Default;
+		};
+		28986741095DAB1500B5DC99 /* Development */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COPY_PHASE_STRIP = NO;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				FRAMEWORK_VERSION = A;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_ENABLE_FIX_AND_CONTINUE = YES;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = LiPlugin/LiPlugin.h;
+				GCC_WARN_FOUR_CHARACTER_CONSTANTS = NO;
+				GCC_WARN_UNKNOWN_PRAGMAS = NO;
+				INFOPLIST_FILE = LiPlugin/Info.plist;
+				INSTALL_PATH = "@executable_path/../Frameworks";
+				OTHER_CFLAGS = "";
+				OTHER_LDFLAGS = (
+					"-seg1addr",
+					0x17000000,
+				);
+				PRODUCT_NAME = LiPlugin;
+				SECTORDER_FLAGS = "";
+				WARNING_CFLAGS = "-Wmost";
+				WRAPPER_EXTENSION = framework;
+				ZERO_LINK = YES;
+			};
+			name = Development;
+		};
+		28986742095DAB1500B5DC99 /* Deployment */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CC = "/usr/bin/gcc-3.3";
+				COPY_PHASE_STRIP = YES;
+				CPLUSPLUS = "/usr/bin/g++-3.3";
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				FRAMEWORK_VERSION = A;
+				GCC_ENABLE_FIX_AND_CONTINUE = NO;
+				GCC_PREFIX_HEADER = LiPlugin/LiPlugin.h;
+				GCC_WARN_FOUR_CHARACTER_CONSTANTS = NO;
+				GCC_WARN_UNKNOWN_PRAGMAS = NO;
+				INFOPLIST_FILE = Info.plist;
+				INSTALL_PATH = "@executable_path/../Frameworks";
+				OTHER_CFLAGS = "";
+				OTHER_LDFLAGS = (
+					"-seg1addr",
+					0x17000000,
+				);
+				OTHER_LIBTOOL_FLAGS = "";
+				OTHER_REZFLAGS = "";
+				PRINCIPAL_CLASS = "";
+				PRODUCT_NAME = LiPlugin;
+				SECTORDER_FLAGS = "";
+				WARNING_CFLAGS = "-Wmost";
+				WRAPPER_EXTENSION = framework;
+				ZERO_LINK = NO;
+			};
+			name = Deployment;
+		};
+		28986743095DAB1500B5DC99 /* Default */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CC = "/usr/bin/gcc-3.3";
+				CPLUSPLUS = "/usr/bin/g++-3.3";
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				FRAMEWORK_VERSION = A;
+				GCC_PREFIX_HEADER = LiPlugin/LiPlugin.h;
+				GCC_WARN_FOUR_CHARACTER_CONSTANTS = NO;
+				GCC_WARN_UNKNOWN_PRAGMAS = NO;
+				INFOPLIST_FILE = Info.plist;
+				INSTALL_PATH = "@executable_path/../Frameworks";
+				OTHER_CFLAGS = "";
+				OTHER_LDFLAGS = (
+					"-seg1addr",
+					0x17000000,
+				);
+				OTHER_LIBTOOL_FLAGS = "";
+				OTHER_REZFLAGS = "";
+				PRINCIPAL_CLASS = "";
+				PRODUCT_NAME = LiPlugin;
+				SECTORDER_FLAGS = "";
+				WARNING_CFLAGS = "-Wmost";
+				WRAPPER_EXTENSION = framework;
+			};
+			name = Default;
+		};
+		28986745095DAB1500B5DC99 /* Development */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+			};
+			name = Development;
+		};
+		28986746095DAB1500B5DC99 /* Deployment */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+			};
+			name = Deployment;
+		};
+		28986747095DAB1500B5DC99 /* Default */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+			};
+			name = Default;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		2898673C095DAB1500B5DC99 /* Build configuration list for PBXNativeTarget "LiBackend" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				2898673D095DAB1500B5DC99 /* Development */,
+				2898673E095DAB1500B5DC99 /* Deployment */,
+				2898673F095DAB1500B5DC99 /* Default */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Default;
+		};
+		28986740095DAB1500B5DC99 /* Build configuration list for PBXNativeTarget "LiPlugin" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				28986741095DAB1500B5DC99 /* Development */,
+				28986742095DAB1500B5DC99 /* Deployment */,
+				28986743095DAB1500B5DC99 /* Default */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Default;
+		};
+		28986744095DAB1500B5DC99 /* Build configuration list for PBXProject "LiFrameworks" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				28986745095DAB1500B5DC99 /* Development */,
+				28986746095DAB1500B5DC99 /* Deployment */,
+				28986747095DAB1500B5DC99 /* Default */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Default;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 0867D690FE84028FC02AAC07 /* Project object */;
+}
